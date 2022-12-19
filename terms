@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discord Bot</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <header>
+        <h1 class="logo">ERM</h1>
+        <nav>
+            <ul class="nav-area top-nav">
+                <li><a href="#top">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#commands">Commands</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#support">Support</a></li>
+            </ul>
+        </nav>
+        <a href="https://discord.com/login?redirect_to=%2Foauth2%2Fauthorize%3Fclient_id%3D978662093408591912%26permissions%3D8%26scope%3Dbot" class="btn-area">Invite</a>
+    </header>
+    <!-- navbar end -->
+    <!-- home -->
+    <div class="wrapper">
+        <div class="home" id="home">
+            <div class="home-text">
+                <h1 id="botname">Terms of Service</h1>
+                <h3 style="margin-left: 0;">tl;dr - don't be stupid, and use you're brain.</h3>
+                <p class="bot-description">Last Updated 12/18/22</p>
+                <br>
+                <a href="https://discord.com/login?redirect_to=%2Foauth2%2Fauthorize%3Fclient_id%3D978662093408591912%26permissions%3D8%26scope%3Dbot" class="home-btn">Invite ERM</a>
+            </div>
+            <div class="home-img">
+                <img src="https://cdn.discordapp.com/attachments/1035365916973744188/1054209037618647070/REDLOCK.png"
+                    alt="">
+            </div>
+        </div>
+    </div>
+    <div class="features">
+        <div class="curve">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill-opacity="1" id="features"
+                    d="M0,128L48,149.3C96,171,192,213,288,229.3C384,245,480,235,576,202.7C672,171,768,117,864,96C960,75,1056,85,1152,106.7C1248,128,1344,160,1392,176L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+                </path>
+            </svg>
+        </div>
+    <div class="wrapper reveal">
+            <main id="questions" role="main">
+                <div class="title">
+                    <div class="th1">
+                        <h1>Overview</h1>
+                    </div>
+                    <center>
+                        <div class="thr">
+                            <hr>
+                        </div>
+                    </center>
+                </div>
+                <input type="text" class="live-search-box" placeholder="Search a Definition..." />
+                <!-- question start -->
+                <div class="topic">
+                    <div class="open">
+
+                        <h2 class="question">Reading the Terms of Service</h2>
+                        <span class="faq-t"></span>
+                    </div>
+                    <p class="answer">Please read these Terms of Service ("Terms", "Terms of Service") carefully before using the https://ermbot.xyz website (the "Service") operated by ERM Coporation ("us", "we", or "our"). </p>
+                </div>
+                <!-- question end -->
+                <!-- question start -->
+                <div class="topic">
+                    <div class="open">
+                        <h2 class="question">Compliance of the Terms
+                        </h2><span class="faq-t"></span>
+                    </div>
+                    <p class="answer">Your access to and use of the Service is conditioned upon your acceptance of and compliance with these Terms. These Terms apply to all visitors, users and others who wish to access or use the Service.
+
+</p>
+                </div>
+                <!-- question end -->
+                <!-- question start -->
+                <div class="topic">
+                    <div class="open">
+                        <h2 class="question">Service
+                        </h2><span class="faq-t"></span>
+                    </div>
+                    <p class="answer">Service refers to the Website accessable via https://www.ermbot.xyz/ and the Discord Bot.
+</p>
+                </div>
+                <!-- question end -->
+                <!-- question start -->
+                <div class="topic">
+                    <div class="open">
+                        <h2 class="question">Usage Data
+                        </h2><span class="faq-t"></span>
+                    </div>
+                    <p class="answer">Usage Data refers to data collected automatically, either generated by the use of the Service or from the Service infrastructure itself (for example, the duration of a page visit).
+</p>
+                </div>
+                <!-- question end -->
+                <!-- question start -->
+                <div class="topic">
+                    <div class="open">
+                        <h2 class="question">Website
+                        </h2><span class="faq-t"></span>
+                    </div>
+                    <p class="answer">Website refers to Emergency Response Management, accessible from https://ermbot.xyz
+</p>
+                </div>
+                <!-- question end -->
+                <!-- question start -->
+                <div class="topic">
+                    <div class="open">
+                        <h2 class="question">You
+                        </h2><span class="faq-t"></span>
+                    </div>
+                    <p class="answer">You means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is
+</p>
+                </div>
+                <!-- question end -->
+            </main>
+        </div>
+        
+    <!-- home end -->
+    <!-- features -->
+        <div class="wrapper reveal">
+            <div class="title">
+                <div class="th1">
+                    <h1>What we Collect</h1>
+                </div>
+                <center>
+                    <div class="thr">
+                        <hr>
+                    </div>
+                </center>
+            </div>
+            <!-- feature start -->
+            <div class="features-grid">
+                <div class="feature feature1">
+                    <i class="fas fa-user"></i>
+                    <h4>Discord Data</h4>
+                    <p>Server IDs, channel IDs, role IDs, message IDs, Usernames and User IDs. We also collect command Input/Interaction/Usage Website: Website Usage (IP Addresses, Requests, Browser Information)
+</p>
+
+                </div>
+                <!-- feature end -->
+                <!-- feature start -->
+                <div class="feature feature2">
+                   <i class="fas fa-database"></i>
+                    <h4>Usage Data</h4>
+                    <p>Usage Data may include information such as Your Device's Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that You visit, the time and date of Your visit, the time spent on those pages, unique device identifiers and other diagnostic data.
+</p>
+
+                </div>
+                <!-- feature end -->
+                <!-- feature start -->
+                <div class="feature feature3">
+                    <i class="fas fa-gavel"></i>
+                    <h4>Legal Obligation
+                    </h4>
+                    <p>We may give your data if necessary for compliance with a legal obligation to which the Owner is subject.</p>
+                </div>
+                <!-- feature end -->
+            </div>
+        </div>
+    <!-- features end -->
+            <!-- Command End -->
+        </div>
+    </div>
+    <!-- commands end -->
+    <!-- faq -->
+   
+        
+
+    <!-- footer -->
+    <footer>
+
+        <div class="wrapper">
+            <div class="foot">
+                <h1>Emergency Response Management</h1>
+                <nav>
+                    <ul class="nav-area bottom-nav">
+                        <li><a href="#top">Home</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#commands">Commands</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="#support">Support</a></li>
+                    </ul>
+                </nav>
+                <h4>Copyright ©2022 ERM Systems.</h4>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+    <script src="main.js"></script>
+    <script src="commands.js"></script>
+    <script src="https://code.iconify.design/1/1.0.4/iconify.min.js">   </script>
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+</body>
+
+
+</html>
